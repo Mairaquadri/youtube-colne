@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------------------------------------------- css link ----------------------------------------------->
+<link rel="stylesheet" href="./style.css" />
+<!----------------------------------------------- css link ----------------------------------------------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather:wght@300&family=Roboto:ital@1&family=Tilt+Prism&display=swap" rel="stylesheet">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>youtube clone</title>
+</head>
+
+<body>
+    <!------------------------------------------------- navbar ------------------------------------------------->
+    <header class="nav">
+        <div class="nav-left">
+
+            <i class="fa-solid fa-bars fa-lg menu"></i>
+
+            <img src="https://vectorseek.com/wp-content/uploads/2021/01/YouTube-Logo-Vector.png" alt="" class="logo" />
+        </div>
+        <div class="nav-middle">
+            <div class="search">
+                <input type="text" placeholder="search" class="search-bar" />
+            </div>
+            <div class="mag-div">
+                <i class="fa-solid fa-magnifying-glass magnifine"></i>
+            </div>
+            <div class="mic-div">
+                <!-- <img src="./images/voice-search.png" alt="" class="mice"> -->
+                <i class="fa-solid fa-microphone fa-lg mice"></i>
+            </div>
+        </div>
+        <div class="nav-right">
+            <img src="./images/upload.png" alt="video" />
+            <img src="./images/more.png" alt="more" />
+            <img src="./images/notification.png" alt="bell" />
+            <img src="./images/Jack.png" alt="human" class="jack" />
+        </div>
+    </header>
+    <!------------------------------------------------- navbar ------------------------------------------------->
+    <!------------------------------------------------- side menu ------------------------------------------------->
+
+    <div class="side-menu">
+        <div class="links">
+            <a href="#"><img src="images/home.png" alt="" />
+                <p>Home</p>
+            </a>
+            <a href="#"><img src="images/explore.png" alt="" />
+                <p>Explora</p>
+            </a>
+            <a href="#"><img src="images/subscriprion.png" alt="" />
+                <p>Subscription</p>
+            </a>
+            <a href="#"><img src="images/library.png" alt="" />
+                <p>Library</p>
+            </a>
+            <a href="#"><img src="images/history.png" alt="" />
+                <p>History</p>
+            </a>
+            <a href="#"><img src="images/messages.png" alt="" />
+                <p>Messages</p>
+            </a>
+            <a href="#"><img src="images/show-more.png" alt="" />
+                <p>Show more</p>
+            </a>
+            <hr>
+        </div>
+        <div class="subsriction-list">
+            <h3>SUBSCRIBED</h3>
+            <a href="#"><img src="images/Jack.png" alt="" />
+                <p>Jack Jhon</p>
+            </a>
+            <a href="#"><img src="images/simon.png" alt="" />
+                <p>Simmon Joy</p>
+            </a>
+            <a href="#"><img src="images/tom.png" alt="" />
+                <p>Tom mark</p>
+            </a>
+            <a href="#"><img src="images/megan.png" alt="" />
+                <p>Megan William</p>
+            </a>
+            <a href="#"><img src="images/cameron.png" alt="" />
+                <p>Carrmon Tim</p>
+            </a>
+        </div>
+    </div>
+
+    <!------------------------------------------------- side menu ------------------------------------------------->
+    <!------------------------------------------------- main menu ------------------------------------------------->
+
+    <div class="main-container">
+        <div class="wrapper">
+            <div class="icon"><i id="left" class="fa-solid fa-angle-left"></i></div>
+            <ul class="tabs-box">
+                <li class="tab">Coding</li>
+                <li class="tab active">JavaScript</li>
+                <li class="tab">Podcasts</li>
+                <li class="tab">Databases</li>
+                <li class="tab">Web Development</li>
+                <li class="tab">Unboxing</li>
+                <li class="tab">History</li>
+                <li class="tab">Programming</li>
+                <li class="tab">Gadgets</li>
+                <li class="tab">Algorithms</li>
+                <li class="tab">Comedy</li>
+                <li class="tab">Gaming</li>
+                <li class="tab">Share Market</li>
+                <li class="tab">Smartphones</li>
+                <li class="tab">Data Structure</li>
+                <li class="tab">Coding</li>
+                <li class="tab active">JavaScript</li>
+                <li class="tab">Podcasts</li>
+                <li class="tab">Databases</li>
+                <li class="tab">Web Development</li>
+                <li class="tab">Unboxing</li>
+                <li class="tab">History</li>
+                <li class="tab">Algorithms</li>
+                <li class="tab">Comedy</li>
+                <li class="tab">Gaming</li>
+                <li class="tab">Share Market</li>
+                <li class="tab">Smartphones</li>
+                <li class="tab">Data Structure</li>
+                <li class="tab">Coding</li>
+                <li class="tab active">JavaScript</li>
+                <li class="tab">Podcasts</li>
+            </ul>
+            <div class="icon"><i id="right" class="fa-solid fa-angle-right"></i></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!------------------------------------------------- main menu ------------------------------------------------->
+
+    <div class="video-container">
+        <div class="banner">
+            <img src="./images/banner.png" alt="">
+        </div>
+        <div class="list-container">
+            <div class="video-list">
+                <a href="play-video.html"><img src="images/thumbnail1.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="play-video.html">Best channel </a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail2.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail3.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail4.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail5.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail6.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail7.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-list">
+                <a href="#"><img src="images/thumbnail8.png" alt="" class="thumbnail"></a>
+
+                <div class="videos">
+                    <img src="images/Jack.png" alt="" srcset="">
+                    <div class="video-info">
+                        <a href="#">Best channel</a>
+                        <p>easy tutorial</p>
+                        <p><b>15k views</b>&bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!----------------------------------------------- js link ----------------------------------------------->
+    <script src="./app.js"></script>
+    <!----------------------------------------------- js link ----------------------------------------------->
+</body>
+
+</html>
