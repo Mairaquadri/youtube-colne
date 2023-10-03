@@ -60,6 +60,7 @@ img {
 .search .search-bar {
     font-size: larger;
     border: none;
+    width: 100px;
 }
 
 .mag-div {
@@ -583,27 +584,40 @@ img {
 
 @media (max-width:900px) {
     .play-video {
-        flex-basis: 100%;
-        /* border: 2px solid black; */
-    }
-    .play-video .videos {
-        /* width: 100%; */
+        width: fit-content;
         /* border: 2px solid black; */
     }
     .right-sidebar {
-        flex-basis: 100%;
+        /* width: 390px; */
     }
     .right-sidebar-wrapper {
-        width: 100%;
-        /* border: 2px solid black; */
+        width: 300px;
     }
     .video-container,
     .playvideo-container {
         padding-left: 5%;
-        /* border: 2px solid black; */
     }
     .play-video-information-left {
         margin-bottom: 10px;
+    }
+    .like-dislike div {
+        padding: 10px;
+        font-size: 11px;
+    }
+    .add-comments-div {
+        margin-bottom: 30px;
+    }
+    .chennal-name {
+        font-size: medium;
+        margin-top: 10px;
+    }
+    .play-video-information-details {
+        font-size: 10px;
+    }
+    .video-info a {
+        display: inline-block;
+        padding-bottom: 3px;
+        font-size: medium;
     }
 }
 
